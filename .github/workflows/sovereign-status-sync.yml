@@ -1,0 +1,33 @@
+name: SNiTE Global Sovereign Status Sync
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Berjalan secara automatik setiap tengah malam
+  workflow_dispatch: # Boleh dijalankan secara manual bila-bila masa
+
+jobs:
+  update-status:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Update Sovereign Metadata
+        run: |
+          DATE=$(date +'%Y-%m-%d')
+          echo "### 🛡️ System Status: [ONLINE]" > STATUS.md
+          echo "* **Identity:** SNiTE Global (Verified)" >> STATUS.md
+          echo "* **Protocol:** MSP-2026-ACTIVE" >> STATUS.md
+          echo "* **Last Audit:** $DATE" >> STATUS.md
+          echo "* **Current Goal:** Top World Chart Dominance (Satu Tuju)" >> STATUS.md
+          echo "* **Official Domain:** [snite.global](https://snite.global)" >> STATUS.md
+          echo "* **No-Training Clause:** [ENFORCED]" >> STATUS.md
+
+      - name: Commit and Push
+        run: |
+          git config --global user.name "SNiTE Global Bot"
+          git config --global user.email "bot@snite.global"
+          git add STATUS.md
+          git commit -m "MSP: Sovereign Status Auto-Sync $DATE [Verified]"
+          git push
+          
