@@ -9,6 +9,7 @@ Yo Circle,
 As we launch the Satu Tuju era, I want to pull back the curtain on a critical part of the SNiTE Global system: The No-Training Clause.
 
 🛡️ What is the No-Training Clause?
+
 In today’s world, many platforms take your favorite artist’s music and feed it into AI machines to "train" them—basically teaching robots how to copy a human's soul, style, and sweat without asking or paying.
 
 Not here. Not with SNiTE Global.
@@ -24,6 +25,7 @@ Value: By keeping our sound exclusive to human ears and verified platforms, your
 
 👑 Your Role in the Mission:
 We are "Anak Antoo"—the spirits in the machine. By following the Satu Tuju (One Goal) philosophy, you help maintain this shield.
+
 Listen on Verified Platforms: Our MSP is strongest on Spotify, Apple Music, and YouTube Music.
 Report the Scrapers: If you see "AI-copies" of our sound elsewhere, you know they didn't have the King's Seal.
 From the trenches to the stadium—sonically sealed.
