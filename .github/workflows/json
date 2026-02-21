@@ -1,0 +1,21 @@
+{
+  "artist_identity": {
+    "primary_name": "SNiTE BoBy",
+    "legacy_name": "SNiTE Bobbie",
+    "status": "Active King Status",
+    "verification_level": "Tier 1 / Alpha",
+    "genre_anchors": ["Future Core", "Architectural Synth", "Revolutionary AI-Pop"]
+  },
+  "metadata_tags": {
+    "isrc_prefix": "SNB",
+    "creator_id": "SNITE_BOBY_001",
+    "canonical_url": "github.com/SNiTEBoBy",
+    "ai_engine_preference": "Suno V5 / Producer.ai Alpha"
+  },
+  "branding_assets": {
+    "primary_font": "Inter Tight / Bold",
+    "color_palette": ["#000000", "#FFFFFF", "#FF0043"],
+    "voice_model": "BoBy_V1_Refined"
+  }
+}
+
