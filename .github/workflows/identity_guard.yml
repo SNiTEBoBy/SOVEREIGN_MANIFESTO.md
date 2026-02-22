@@ -1,0 +1,30 @@
+name: SNiTE BoBy Identity Guard
+
+on: [push, pull_request]
+
+jobs:
+  check-identity:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Scan for Legacy Identity (snitebobbie)
+        run: |
+          # Mencari string lama secara case-insensitive, abaikan fail binari dan .git
+          FORBIDDEN="snitebobbie"
+          MATCHES=$(grep -rni "$FORBIDDEN" . --exclude-dir=.git || true)
+          
+          if [ -n "$MATCHES" ]; then
+            echo "--- [CRITICAL ERROR: LEGACY IDENTITY DETECTED] ---"
+            echo "$MATCHES"
+            echo "-----------------------------------------------"
+            echo "Sila tukar rujukan di atas kepada 'SNiTE BoBy' atau 'SNiTEBoBy'."
+            echo "King Status memerlukan ketekalan 100%."
+            exit 1
+          else
+            echo "Identity Check Passed: SNiTE BoBy Authority Confirmed."
+          fi
+          
