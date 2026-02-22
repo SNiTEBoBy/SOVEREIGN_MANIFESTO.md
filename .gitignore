@@ -1,0 +1,29 @@
+# --- SNiTE BoBy Security Layer ---
+
+# Audit & Stress Test Logs
+king_audit_*.log
+king_resync.log
+stress_test_results/
+
+# Environment & Secrets
+.env
+.env.local
+*.pem
+*.key
+
+# Temporary/Cache Files
+.cache/
+__pycache__/
+*.tmp
+.DS_Store
+
+# Remove the file from the git cache but keep it on the hard disk
+ git rm --cached king_audit_*.log
+ git rm --cached .env
+
+ # Commit the changes
+ git commit -m "SECURITY: Purged sensitive audit logs and env files from index"
+ git push origin main
+
+git config --global core.excludesfile ~/.gitignore_global
+echo "king_audit_*.log" >> ~/.gitignore_global
