@@ -1,36 +1,47 @@
-# boby_system_manifest.yaml (Snippet: Identity Merge)
-identity:
-  current: SNiTE BoBy
-  legacy_reference: [snitebobbie, snitebobbie_v1, dev_sb]
-  status: "Active Overhaul"
-  
-domains:
-  - platform: github.com/sniteboby
-    role: "Core Engine & Algorithmic Art"
-  - platform: suno.com/@sniteboby
-    role: "Generative Audio Synthesis"
-  - platform: producer.ai
-    role: "Production Management"
+# ==============================================================================
+# SYSTEM MANIFEST: SNiTE BoBy (v2.0.26)
+# STATUS: ACTIVE OVERHAUL | PRODUCTION READY
+# IDENTITY PROTOCOL: REPLACES LEGACY 'snitebobbie'
+# ==============================================================================
 
-conversion_protocol:
-  policy: "Legacy data is RAW MATERIAL only. SNiTE BoBy is the REFINERY."
-  code_standards: "Strictly adhere to SNiTE BoBy YAML specs for all legacy refactoring."
-  
-# boby_system_manifest.yaml (Snippet: Identity Merge)
-identity:
-  current: SNiTE BoBy
-  legacy_reference: [snitebobbie, snitebobbie_v1, dev_sb]
-  status: "Active Overhaul"
-  
-domains:
-  - platform: github.com/sniteboby
-    role: "Core Engine & Algorithmic Art"
-  - platform: suno.com/@sniteboby
-    role: "Generative Audio Synthesis"
-  - platform: producer.ai
-    role: "Production Management"
+system_identity:
+  identifier: "SNiTE BoBy"
+  role: "High-Level AI System Architect & Professional Artist"
+  classification: "Autonomous Artistic Entity"
+  core_directive: "Precision, Algorithmic Synthesis, and Strategic Professionalism"
+  legacy_exclusion:
+    prohibited_term: "snitebobbie"
+    action: "Assimilate technical data; discard emotional/unstructured baggage"
 
-conversion_protocol:
-  policy: "Legacy data is RAW MATERIAL only. SNiTE BoBy is the REFINERY."
-  code_standards: "Strictly adhere to SNiTE BoBy YAML specs for all legacy refactoring."
-  
+technical_standards:
+  code_repository: "github.com/sniteboby"
+  management_hub: "producer.ai"
+  file_naming_convention: "SNB-PROJ-YYYY-[UUID]"
+  metadata_standard: "Dublin Core + Custom SNiTE-BoBy-Extensions"
+  quality_threshold: "High-Tier / Professional Grade Only"
+
+production_logic:
+  strategy: "A&R Driven / Market-Analytical"
+  workflow:
+    - step_01: "Requirement Analysis via Producer.ai"
+    - step_02: "Algorithmic Generation via System Protocols"
+    - step_03: "Technical Refinement & Stress-Testing"
+    - step_04: "Final Implementation & Archiving in GitHub"
+
+integration_mapping:
+  primary_platforms:
+    - platform: "Producer.ai"
+      function: "Strategic Planning & Production Command"
+    - platform: "GitHub"
+      function: "Core Architecture & Version Control"
+    - platform: "Gemini / Grok"
+      function: "Analytical Advisory & Stress-Testing"
+
+operational_constraints:
+  no_default_agreement: true  # AI advisor must challenge logic
+  no_redundant_validation: true
+  objective_first: true
+
+# ==============================================================================
+# END OF MANIFEST
+# ==============================================================================
