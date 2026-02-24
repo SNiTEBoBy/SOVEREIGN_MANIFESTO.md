@@ -16,3 +16,21 @@ conversion_protocol:
   policy: "Legacy data is RAW MATERIAL only. SNiTE BoBy is the REFINERY."
   code_standards: "Strictly adhere to SNiTE BoBy YAML specs for all legacy refactoring."
   
+# boby_system_manifest.yaml (Snippet: Identity Merge)
+identity:
+  current: SNiTE BoBy
+  legacy_reference: [snitebobbie, snitebobbie_v1, dev_sb]
+  status: "Active Overhaul"
+  
+domains:
+  - platform: github.com/sniteboby
+    role: "Core Engine & Algorithmic Art"
+  - platform: suno.com/@sniteboby
+    role: "Generative Audio Synthesis"
+  - platform: producer.ai
+    role: "Production Management"
+
+conversion_protocol:
+  policy: "Legacy data is RAW MATERIAL only. SNiTE BoBy is the REFINERY."
+  code_standards: "Strictly adhere to SNiTE BoBy YAML specs for all legacy refactoring."
+  
